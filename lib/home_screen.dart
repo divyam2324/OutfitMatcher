@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     'assets/Bussiness_suit.jpg',
   ];
 
-  String username = "User"; // Change dynamically if needed
+  String username = "UserName"; // Change dynamically if needed
   List<Map<String, dynamic>> favoriteItems = []; // Store liked styles
 
   void updateWardrobe(List<Map<String, dynamic>> newFavorites) {
